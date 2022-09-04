@@ -1,0 +1,106 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-bold{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-flex{
+    display: flex;
+
+}
+
+side{
+    background-color: white;
+    flex: 0 0 20vw;
+    height: 100vh;
+    
+}
+.border{
+    border: solid 2px #BEC1BB;
+    border-collapse: collapse;
+}
+
+section{
+    background-color: #e8ebe4;
+    flex: 0 0 80vw;
+    height: 100vh;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: end;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.p-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.p-4{
+    padding: 1.5rem;
+}
+.m-3{
+    margin: 0.5rem;
+}
+.ms-2{
+    margin-left: 0.5rem;
+}
+.fs-4{
+    font-size: 2rem;
+}
+
+.text-large{
+    font-size: 45px;
+}
+.text-medium{
+    font-size: 16px;
+}
+.text-small{
+    font-size: 14px;
+}
+.text-xsmall{
+    font-size: 10px;
+}
+.lh-1{
+    line-height: 0.25rem;
+}
+
+.thumbnail-small{
+    background-image: url(/assets/img/maria.jpg);
+    border: #E8EBE4 2px solid;
+    border-radius: 30px;
+    width: 3vw;
+    height: 3vw;
+    background-position: center;
+    background-size: cover;
+
+}
+.text-secondary{
+    color: #BEC1BB;
+}
