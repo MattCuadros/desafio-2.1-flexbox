@@ -8,20 +8,23 @@ html{
 
 .container-flex{
     display: flex;
-
 }
 
 side{
     background-color: white;
     flex: 0 0 20vw;
     height: 100vh;
-    
+    box-shadow: #444749 1px 1px 3px;
+    position: relative;
+    z-index: 1;    
 }
 .border{
-    border: solid 2px #BEC1BB;
+    border: solid 1px #E8EBE4;
+    
+}
+.b-collapse{
     border-collapse: collapse;
 }
-
 section{
     background-color: #e8ebe4;
     flex: 0 0 80vw;
@@ -57,6 +60,10 @@ section{
 .px-2{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+.px-4{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 .p-2{
     padding-left: 0.5rem;
@@ -95,12 +102,52 @@ section{
     background-image: url(/assets/img/maria.jpg);
     border: #E8EBE4 2px solid;
     border-radius: 30px;
-    width: 3vw;
-    height: 3vw;
+    min-width: 2vw;
+    min-height: 2vw;
     background-position: center;
     background-size: cover;
-
+}
+.thumbnail-medium{
+    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
+    border: #E8EBE4 2px solid;
+    border-radius: 30px;
+    min-width: 3vw;
+    min-height: 3vw;
+    background-position: center;
+    background-size: cover;
 }
 .text-secondary{
     color: #BEC1BB;
+}
+
+.button-box{
+    height: 20vh;
+}
+
+button{
+    background-color: #A491D2;
+    box-shadow: none;
+    color: white;
+    border-style: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #cdc3e6;
+}
+button:focus{
+    background-color: #D4DCFF;
+}
+
+.thumbnail-medium:nth-child(1){
+    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
+}
+.thumbnail-medium:nth-child(2){
+    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
+}
+.thumbnail-medium:nth-child(3){
+    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
 }
