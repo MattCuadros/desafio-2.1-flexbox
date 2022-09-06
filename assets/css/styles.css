@@ -112,7 +112,7 @@ section{
 }
 
 .thumbnail-small{
-    background-image: url(/assets/img/maria.jpg);
+    background-image: url(../img/maria.jpg);
     border: #E8EBE4 2px solid;
     border-radius: 30px;
     min-width: 2vw;
@@ -121,7 +121,7 @@ section{
     background-size: cover;
 }
 .thumbnail-medium{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
     border: #E8EBE4 2px solid;
     border-radius: 30px;
     min-width: 3vw;
@@ -137,25 +137,25 @@ section{
 }
 
 #alberto{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg);
 }
 #ignacio{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
 }
 #cristian{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
 }
 #mariajose{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
 }
 #gonzalo{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
 }
 #juanpablo{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
 }
 #magdalena{
-    background-image: url(/assets/img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
 }
 .text-secondary{
     color: #BEC1BB;
