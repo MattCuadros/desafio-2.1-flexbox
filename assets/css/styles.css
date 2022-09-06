@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html{
     font-family: 'Open Sans', sans-serif;
 }
@@ -9,15 +16,18 @@ html{
 .container-flex{
     display: flex;
 }
-
+.contact-box{
+    min-height: 10vh;
+}
 side{
     background-color: white;
     flex: 0 0 20vw;
-    height: 100vh;
-    box-shadow: #444749 1px 1px 3px;
+    max-height: 100vh;
+    height: auto;
+    box-shadow: #444749 1px 0px 3px;
     position: relative;
     z-index: 1; 
-    overflow: hidden;   
+       
 }
 .border{
     border: solid 1px #E8EBE4;
@@ -29,7 +39,9 @@ side{
 section{
     background-color: #e8ebe4;
     flex: 0 0 80vw;
-    height: 100vh;
+    max-height: 100vh;
+    height: auto;
+    width: auto;
 }
 .text-center{
     text-align: center;
@@ -80,14 +92,14 @@ section{
     margin-left: 0.5rem;
 }
 .fs-4{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .text-large{
     font-size: 45px;
 }
 .text-medium{
-    font-size: 16px;
+    font-size: 1rem;
 }
 .text-small{
     font-size: 14px;
@@ -116,6 +128,12 @@ section{
     min-height: 3vw;
     background-position: center;
     background-size: cover;
+}
+.fa-message:hover{
+    text-shadow: #444749 1px 1px 2px;
+}
+.fa-bars:hover{
+    text-shadow: #444749 1px 1px 2px;
 }
 
 #alberto{
