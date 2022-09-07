@@ -143,6 +143,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #alberto{
@@ -153,6 +154,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #ignacio{
@@ -163,6 +165,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #cristian{
@@ -173,6 +176,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #mariajose{
@@ -183,6 +187,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #gonzalo{
@@ -193,6 +198,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #juanpablo{
@@ -203,6 +209,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 #magdalena{
@@ -213,6 +220,7 @@ section{
     min-height: 4vw;
     position: relative;
     z-index: 2;
+    cursor:pointer;
     box-shadow: #444749 -2px 2px 2px 2px;
 }
 .text-secondary{
