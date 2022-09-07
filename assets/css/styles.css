@@ -39,9 +39,10 @@ side{
 section{
     background-color: #e8ebe4;
     flex: 0 0 80vw;
-    max-height: 100vh;
+    min-height: 100vh;
     height: auto;
-    width: auto;
+    width: 80vw;
+    overflow: hidden;
 }
 .text-center{
     text-align: center;
@@ -129,33 +130,90 @@ section{
     background-position: center;
     background-size: cover;
 }
+
+
 .fa-message:hover{
     text-shadow: #444749 1px 1px 2px;
 }
 .fa-bars:hover{
     text-shadow: #444749 1px 1px 2px;
 }
-
+#juanita:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
+}
 #alberto{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg);
+}
+#alberto:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
 }
 #ignacio{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
 }
+#ignacio:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
+}
 #cristian{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
+}
+#cristian:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
 }
 #mariajose{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
 }
+#mariajose:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
+}
 #gonzalo{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
+}
+#gonzalo:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
 }
 #juanpablo{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
 }
+#juanpablo:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
+}
 #magdalena{
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
+}
+#magdalena:hover{
+    min-width: 4vw;
+    min-height: 4vw;
+    position: relative;
+    z-index: 2;
+    box-shadow: #444749 2px 2px 2px 2px;
 }
 .text-secondary{
     color: #BEC1BB;
